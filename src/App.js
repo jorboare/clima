@@ -23,7 +23,7 @@ function App() {
     const consultarAPI = async () => {
 
       if (consultar === true) {
-        const appId = "643228e768980ba2f90d810d6149253b";
+        //const appId = Uncomment and insert your openWeatherMap ApiKey Here;
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad},${pais}&appid=${appId}`
 
         const respuesta = await fetch(url)
